@@ -2,7 +2,8 @@ package tuitionCost;
 
 import java.util.*;
 
-public class tuition {
+public class tuition 
+{
 	
 	// Declarations		
 	double tuitionInitial;
@@ -11,8 +12,10 @@ public class tuition {
 	int counter;
 	
 	// Main Function
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
+		
 		
 		double tuitionInitial = 12000;
 		double tuitionCurrentYear = tuitionInitial;
@@ -23,7 +26,8 @@ public class tuition {
 		System.out.println("");
 		
 		// For loop to calculate and output the counter & annual tuition cost for the current year to next year. 
-		for(counter = 1; counter < 6; counter++) {
+		for(counter = 1; counter < 6; counter++) 
+		{
 			
 			System.out.println("Year: " + counter + " | The tuition cost will be: " + tuitionCurrentYear);
 			
@@ -36,7 +40,7 @@ public class tuition {
 		// Message at the end of the program
 		System.out.println("");
 		System.out.println("Thank you for using this program... ");
-		System.out.println("© Jamil Matheny");
+		System.out.println("Â© Jamil Matheny");
 		
 	}
 
